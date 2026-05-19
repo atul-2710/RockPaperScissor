@@ -67,3 +67,37 @@ img {
   padding: 1rem;
   border-radius: 1rem;
 }
+
+/* --- MOBILE OPTIMIZATION --- */
+@media (max-width: 600px) {
+  .choices {
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+
+  .choice {
+    height: 100px;
+    width: 100px;
+  }
+
+  img {
+    height: 90px;
+    width: 90px;
+  }
+
+  .score-board {
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  #user-score,
+  #comp-score {
+    font-size: 3rem;
+  }
+
+  #msg {
+    font-size: 1.25rem;
+    padding: 0.8rem;
+  }
+}
